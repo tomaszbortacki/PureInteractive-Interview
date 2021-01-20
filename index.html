@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Tomasz Bortacki" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />  
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <section class="weather">
+      <aside class="weather__left">
+        <ul>
+          <li>Dzień</li>
+          <li>Godzina</li>
+          <li>Prognoza</li>
+          <li>Temperatura</li>
+          <li>Opady</li>
+          <li>Kierunek<br/>wiatru</li>
+          <li>Prędkość<br/>wiatru</li>
+          <li>Ciśnienie</li>
+        </ul>
+      </aside>
+      <section class="weather__right">
+        <section class="weather__right--arrows"></section>
+        <section
+          class="weather__right--wrapper"
+          data-generate-weather="48"
+        ></section>
+      </section>
+    </section>
+    <section class="sample">
+      <img src="assets/img/sample.png" alt="sample" title="sample" />
+      <img src="assets/img/sample.gif" alt="sample" title="sample" />
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
